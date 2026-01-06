@@ -97,15 +97,25 @@
             border-left: 4px solid #667eea;
         }
 
-        /* Services Section */
-        .services {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
+        /* Games Section */
+        .games-section {
             margin-bottom: 60px;
         }
 
-        .service-card {
+        .games-section h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            color: #667eea;
+        }
+
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .game-card {
             background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
             padding: 40px;
             border-radius: 20px;
@@ -113,20 +123,30 @@
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
-        .service-card:hover {
+        .game-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 20px 40px rgba(102, 126, 234, 0.3);
         }
 
-        .service-card h3 {
+        .game-card h3 {
             font-size: 1.8em;
             margin-bottom: 15px;
             color: #667eea;
         }
 
-        .service-card p {
+        .game-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .game-card ul li {
+            padding: 8px 0;
             font-size: 1.1em;
-            line-height: 1.8;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .game-card ul li:last-child {
+            border-bottom: none;
         }
 
         /* Why Choose Section */
@@ -228,7 +248,7 @@
                 padding: 30px 20px;
             }
 
-            .service-card {
+            .game-card {
                 padding: 30px 20px;
             }
         }
@@ -240,58 +260,79 @@
         <div class="hero">
             <img src="https://nyc3.digitaloceanspaces.com/bhindi-drive/files/89ff5b0b-d136-47af-b8e9-f4f51cd68514/2026-01-06T09-12-36-268Z-115ced85-chat-image-1767690756247-1.jpg" alt="Call Me Blitz Profile" class="profile-pic">
             <h1>Hi, I am Blitz ⚡</h1>
-            <p class="subtitle">Creator • Upcode Provider • Digital Builder</p>
-            <p class="tagline">I create and share premium upcodes that are clean, modern, and easy to use.<br>
-            My focus is on providing trustworthy, affordable, and high-quality upcodes for everyone — from beginners to advanced users.</p>
+            <p class="subtitle">Premium Gaming Accounts Seller • Trusted Provider</p>
+            <p class="tagline">Your trusted source for premium gaming accounts across multiple platforms.<br>
+            Offering high-quality accounts at fair prices with guaranteed security and instant delivery.</p>
         </div>
 
         <!-- About Section -->
         <div class="about">
-            <h2>🧩 About Call Me Blitz</h2>
-            <p>Call Me Blitz is a growing digital brand and YouTube channel dedicated to sharing useful upcodes, smart solutions, and practical digital resources.</p>
-            <p>Every upcode is carefully built to be:</p>
+            <h2>🎮 About La Fabrica Gaming Store</h2>
+            <p>La Fabrica Gaming Store is your one-stop destination for premium gaming accounts. We specialize in providing verified, secure, and high-value accounts for popular mobile games.</p>
+            <p>Every account we sell is:</p>
             <div class="features">
-                <div class="feature-item">✔ Reliable</div>
-                <div class="feature-item">✔ Optimized</div>
-                <div class="feature-item">✔ Easy to understand</div>
-                <div class="feature-item">✔ Ready to use</div>
+                <div class="feature-item">✔ 100% Verified & Secure</div>
+                <div class="feature-item">✔ Instant Delivery</div>
+                <div class="feature-item">✔ Affordable Pricing</div>
+                <div class="feature-item">✔ Full Account Details Provided</div>
             </div>
-            <p style="margin-top: 20px;">Whether you want premium-quality work or budget-friendly options, you'll find both here.</p>
+            <p style="margin-top: 20px;">Whether you're looking for rare skins, high-tier ranks, or exclusive items, we've got you covered!</p>
         </div>
 
-        <!-- Services Section -->
-        <h2 style="text-align: center; font-size: 2.5em; margin-bottom: 40px; color: #667eea;">💎 What I Provide</h2>
-        <div class="services">
-            <div class="service-card">
-                <h3>🔹 Premium Upcodes</h3>
-                <p>High-end upcodes with clean structure and professional logic. Ideal for real projects, learning, and fast deployment.</p>
-            </div>
-            <div class="service-card">
-                <h3>🔹 Affordable Upcodes</h3>
-                <p>Low-priced upcodes designed for students and beginners who want quality at a fair price.</p>
-            </div>
-            <div class="service-card">
-                <h3>🔹 Trusted Service</h3>
-                <p>I value honesty, clarity, and long-term trust over quick profit.</p>
+        <!-- Games Section -->
+        <div class="games-section">
+            <h2>🎯 Available Gaming Accounts</h2>
+            <div class="games-grid">
+                <div class="game-card">
+                    <h3>🔥 Free Fire</h3>
+                    <ul>
+                        <li>🎭 Rare Bundles</li>
+                        <li>🌸 Hip Hopp Sakura</li>
+                        <li>👑 Max Level Skins</li>
+                        <li>💎 Exclusive Characters</li>
+                        <li>🏆 High Rank Accounts</li>
+                    </ul>
+                </div>
+                <div class="game-card">
+                    <h3>⚽ eFootball</h3>
+                    <ul>
+                        <li>⭐ Full Iconic Squads</li>
+                        <li>🏅 Epic Players</li>
+                        <li>💰 High GP/Coins</li>
+                        <li>🎖️ Legendary Cards</li>
+                        <li>📊 Top Rated Teams</li>
+                    </ul>
+                </div>
+                <div class="game-card">
+                    <h3>🎯 BGMI</h3>
+                    <ul>
+                        <li>👑 Conqueror Frames</li>
+                        <li>🔫 M416 Glacier</li>
+                        <li>🎨 X-Suits Collection</li>
+                        <li>🏆 Rare Gun Skins</li>
+                        <li>💎 Premium Outfits</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
         <!-- Why Choose Section -->
         <div class="why-choose">
-            <h2>✅ Why Choose Call Me Blitz?</h2>
+            <h2>✅ Why Choose La Fabrica?</h2>
             <div class="benefits">
-                <div class="benefit-item">✔ Premium quality at fair pricing</div>
-                <div class="benefit-item">✔ Clean, secure, and tested upcodes</div>
-                <div class="benefit-item">✔ Beginner-friendly documentation</div>
-                <div class="benefit-item">✔ Transparent and honest service</div>
-                <div class="benefit-item">✔ Community-driven growth</div>
+                <div class="benefit-item">🔒 100% Safe & Secure Transactions</div>
+                <div class="benefit-item">⚡ Instant Account Delivery</div>
+                <div class="benefit-item">💰 Best Prices in the Market</div>
+                <div class="benefit-item">🛡️ Verified Accounts Only</div>
+                <div class="benefit-item">🤝 Trusted by 1000+ Gamers</div>
+                <div class="benefit-item">📞 24/7 Customer Support</div>
             </div>
         </div>
 
         <!-- Community Section -->
         <div class="community">
-            <h2>📢 Join the Community</h2>
-            <p style="font-size: 1.2em; margin-bottom: 30px;">Get updates, support, and exclusive releases through my channels:</p>
+            <h2>📢 Join Our Community</h2>
+            <p style="font-size: 1.2em; margin-bottom: 30px;">Get exclusive deals, new account updates, and instant support through our channels:</p>
             <div class="social-links">
                 <a href="https://chat.whatsapp.com/E1rfjxOWY5j6ojnPU4da4G" class="social-link" target="_blank">📲 WhatsApp Channel</a>
                 <a href="https://t.me/+VCqrLT9V20Y5YjVl" class="social-link" target="_blank">✈️ Telegram Channel</a>
@@ -301,7 +342,7 @@
 
         <!-- Footer -->
         <div class="footer">
-            <p><strong>Call Me Blitz</strong> — Premium Upcodes, Smart Pricing, Trusted Quality.</p>
+            <p><strong>La Fabrica Gaming Store</strong> — Premium Accounts. Zero Risk. Trusted Quality.</p>
         </div>
     </div>
 </body>
